@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+    <script src="https://kit.fontawesome.com/f5df9e9075.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="img/MEMOS.logo.png.sort.png">
+    <link rel="stylesheet" href="https://use.typekit.net/txi8myv.css">
+    <script src="script/script.js"></script>
+    <title>Memos</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="topBar">
+                <li>
+                    <a href="#" id="kurv">
+                        Kurv <span id="kurvTal">0</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" id="burger">
+                        <i class="fas fa-bars" id="burgerStreger"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article id="landingPage">
+            <svg width="99" height="75" id="logo">
+                <polygon class="cls-1" points="85.11 75.42 77.72 75.42 73.32 43.62 71.63 31.42 70.26 21.49 55.16 52.04 51.3 44.33 73.05 0 74.25 0 77.15 20.17 78.9 32.32 78.9 32.33 85.11 75.42"/>
+                <polygon class="cls-2" points="68.61 37.57 70.31 49.72 57.6 75.42 55.67 75.42 54.11 72.29 49.62 63.24 45.8 55.54 40.77 45.41 28.69 21.08 27.69 28.41 27.35 30.92 27.35 30.95 25.67 43.2 25.67 43.21 21.28 75.42 14 75.42 20.19 32.18 20.19 32.17 21.93 20.02 21.93 20.01 24.8 0 26.02 0 42.22 32.69 49.65 47.69 52.82 54.09 53.48 55.42 53.48 55.43 56.68 61.89 68.61 37.57"/>
+                <polyline class="cls-2" points="77.15 20.17 87.05 0 88.25 0 99.11 75.42 91.72 75.42 84.26 21.49 78.9 32.32 78.9 32.33"/>
+                <polyline class="cls-1" points="20.19 32.17 14.69 21.08 7.28 75.42 0 75.42 10.8 0 12.02 0 21.93 20.01"/>
+                <polygon class="cls-1" points="44.18 58.83 48.01 66.49 43.6 75.42 41.67 75.42 28.09 48.07 29.74 35.77 42.68 61.89 44.18 58.83"/>
+            </svg>
+            <h1>
+                Memos
+            </h1>
+            <h2>
+                Watches For Generations
+            </h2>
+            <a href="#vejleUr">
+                <svg width="36" height="127" id="pil">
+                    <line class="cls-3" x1="17.57" x2="17.57" y2="97.24"/>
+                    <polygon class="cls-4" points="35.66 96.34 17.83 127.23 0 96.34 35.66 96.34"/>
+                </svg>
+            </a>
+        </article>
+        <article class="produkt" id="vejleUr">
+            <div>
+                <div class="urDiv">
+                    <div class="urBaggrund"></div>
+                    <img src="img/ur3optimized.png" alt="vejleuret">
+                    <img id="imgDot1" src="img/memosur2.png" alt="bagsiden af uret">
+                </div>
+                <div class="dots">
+                    <span id="dott1" class="dot1 active" onclick="imgThingHide()"></span>
+                    <span id="dott2" class="dot1" onclick="imgThingShow()"></span>
+                </div>
+              </div>
+              <article>
+                <h4>
+                    Vejle Uret
+                </h4>
+                <span class="limit">
+                    Limited edition
+                </span>
+                <p>
+                    Vejle uret er et unikt ur til dig, som har en speciel tilknytning til Vejle
+                </p>
+                <button class="tekForm" id="tekForm1" onclick="tekFormShow1()">
+                    Tekniske detaljer
+                </button>
+                <ul id="produktMisc1" class="produktMisc">
+                    <li class="saph">
+                        Sapphire crystal
+                    </li>
+                    <li class="atm">
+                        5ATM water resistant
+                    </li>
+                    <li class="miyo">
+                        Miyota6S11
+                    </li>
+                    <li class="dan">
+                        Danish design
+                    </li>
+                    <li class="stan">
+                        316L stainless steel
+                    </li>
+                </ul>
+                <span class="pris">
+                    1600 kr.
+                </span>
+                <button type="button">
+                    Køb
+                </button>
+            </article>
+        </article>
+        <article class="produkt" id="koldingUr">
+            <div>
+                <div class="urDiv">
+                    <div class="urBaggrund"></div>
+                    <img src="img/ur3optimized.png" alt="Koldinguret">
+                    <img id="imgDot2" src="img/memosur2.png" alt="bagsiden af uret">
+                </div>
+                <div class="dots">
+                    <span id="dott3" class="dot2 active" onclick="imgThingHide2()"></span>
+                    <span id="dott4" class="dot2" onclick="imgThingShow2()"></span>
+                </div>
+            </div>
+            <article>
+                <h4>
+                    Kolding Uret
+                </h4>
+                <span class="limit">
+                    Limited edition
+                </span>
+                <p>
+                    Kolding uret er et unikt ur til dig, som har en speciel tilknytning til Kolding
+                </p>
+                <button class="tekForm" id="tekForm2" onclick="tekFormShow2()">
+                    Tekniske detaljer
+                </button>
+                <ul id="produktMisc2" class="produktMisc">
+                    <li class="saph">
+                        Sapphire crystal
+                    </li>
+                    <li class="atm">
+                        5ATM water resistant
+                    </li>
+                    <li class="miyo">
+                        Miyota6S11
+                    </li>
+                    <li class="dan">
+                        Danish design
+                    </li>
+                    <li class="stan">
+                        316L stainless steel
+                    </li>
+                </ul>
+                <span class="pris">
+                    1600 kr.
+                </span>
+                <button type="button">
+                    Køb
+                </button>
+            </article>
+        </article>
+        <div id="misVisVal">
+            <section>
+                <h4>
+                    Mission
+                </h4>
+                <p>
+                    Tell your story about where you are from
+                </p>
+            </section>
+            <section>
+                <h4>
+                    Vision
+                </h4>
+                <p>
+                    Watch that lives for generations
+                </p>
+            </section>
+            <section>
+                <h4>
+                    Values
+                </h4>
+                <p>
+                    We are transparent. We minimize waste
+                </p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <h4>
+            Memos
+        </h4>
+        <div id="footerDiv">
+            <section>
+                <h5 id="infoh" onclick="footerMiscShow1()">
+                    Information
+                </h5>
+                <ul id="info" class="footerMisc">
+                    <li>
+                        Handelsbetingelser
+                    </li>
+                    <li>
+                        Privatlivspolitik
+                    </li>
+                    <li>
+                        Forsendelse og returnering
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h5 id="memh" onclick="footerMiscShow2()">
+                    Memos
+                </h5>
+                <ul id="mem" class="footerMisc">
+                    <li>
+                        Om os
+                    </li>
+                    <li>
+                        Kontakt
+                    </li>
+                    <li>
+                        Cookie settings
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h5 id="socialh" onclick="footerMiscShow3()">
+                    Socials
+                </h5>
+                <ul id="social" class="footerMisc">
+                    <li>
+                        <a href="">
+                            <img src="img/facebook.png" alt="Facebook logo" height="50" width="50">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/instagram.png" alt="Instagram logo" height="50" width="50">
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section id="nyhed">
+                <h5 id="nyhedh" onclick="footerMiscShow4()">
+                    Nyhedsbrev
+                </h5>
+                <p id="nyhedP">
+                    Tilmeld dig Memos nyhedsbrev og få mere viden om vores produkter
+                </p>
+                <form action="#"> 
+                    <input type="email" id="email" name="email" placeholder="Email">
+                    <input type="submit" id="submit" value="Tilmeld">
+                </form>
+            </section>
+        </div>
+        <section>
+            <h5 id="copy">
+                <i class="far fa-copyright"></i> 2022
+            </h5>
+            
+        </section>
+        <button onclick="tilTops()" id="tilTopsKnap">&#8743;</button>
+    </footer>
+</body>
+</html>
